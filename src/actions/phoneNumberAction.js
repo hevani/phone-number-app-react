@@ -13,5 +13,5 @@ export const phoneNumbersFetched = phonenumbers => ({
 });
 export const fetchPhonenumberList = filterInut => dispatch =>
   axios
-    .post(`http://localhost:8080/v1.0/phoneNumber`, filterInut)
+    .post(`http://localhost:8080/phoneservice/v1.0/phoneNumber`, filterInut)
     .then(response => dispatch(phoneNumbersFetched(response.data)));
