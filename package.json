@@ -50,7 +50,7 @@
     "jquery": "^3.4.1",
     "js-file-download": "^0.4.7",
     "jsonexport": "^2.4.1",
-    "jsonwebtoken": "8.5.1",
+    "jsonwebtoken": "9.0.0",
     "jspdf": "git+https://github.com/MrRio/jsPDF.git#aac406f626e0af075f3024cd8738f3c2182e450b",
     "jwt-decode": "^2.2.0",
     "lodash": "^4.17.11",
